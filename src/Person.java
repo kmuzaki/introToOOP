@@ -75,6 +75,8 @@ public class Person {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Gender: " + gender);
+        System.out.println("Hobby: " + hobby);
+        System.out.println("Favourite food: " + favFood);
     }
     
     // Method to provide a greeting
