@@ -3,6 +3,8 @@ public class Person {
     private String name;
     private int age;
     private String gender;
+    private String hobby;
+    private String favFood;
     
     // Default constructor
     public Person() {
@@ -10,13 +12,17 @@ public class Person {
         this.name = "Unknown";
         this.age = 0;
         this.gender = "Unspecified";
+        this.hobby = "Unspecified";
+        this.favFood = "Don't know";
     }
     
     // Parameterized constructor
-    public Person(String name, int age, String gender) {
+    public Person(String name, int age, String gender, String hobby, String favFood) {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.hobby = hobby;
+        this.favFood = favFood;
     }
     
     // Getter and Setter for 'name'
