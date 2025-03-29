@@ -4,21 +4,21 @@ public class PersonDemo {
         Person person1 = new Person();
         // Update attributes using setter methods
         person1.setName("Alice");
-        person1.setAge(25);
+        person1.setAge(10);
         person1.setGender("Female");
         
         // Create a person using the parameterized constructor
-        Person person2 = new Person("Bob", 30, "Male", "Gaming", "Rendang");
+        Person person2 = new Person("Bob", 19, "Male", "Gaming", "Rendang");
         
         // Display information for person1
         System.out.println("Person 1 Information:");
         person1.displayInfo();
-        System.out.println(person1.greet());
+        System.out.println(person1.greetAge());
         System.out.println();
         
         // Display information for person2
         System.out.println("Person 2 Information:");
         person2.displayInfo();
-        System.out.println(person2.greet());
+        System.out.println(person2.greetAge());
     }
 }
