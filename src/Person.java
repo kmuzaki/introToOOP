@@ -81,4 +81,19 @@ public class Person {
     public String greet() {
         return "Hello, my name is " + name + "!";
     }
+
+    // Method to provide greeting based on age
+    public String greetAge() {
+        if (age < 7) {
+            return "Hewwwo. My name is " + name + ". I am " + age + " years old.";
+        } else if (age < 13) {
+            return "Hi there. My name is " + name + ". And I'm currently an elementary school student. Nice to meet you!";
+        } else if (age < 16) {
+            return "Good day. I am " + name + ". And I'm currently studying in Junior High. Pleased to meet you!";
+        } else if (age < 19) {
+            return "What's up? I am " + name + ". And I'm studying in this High School. Pleased to meet you, buddy!";
+        } else {
+            return "Why hello there! My name is " + name + "and I'm now studying at College. It's pretty hectic, but I got this. Nice to meet you, by the way!";
+        }
+    }
 }
