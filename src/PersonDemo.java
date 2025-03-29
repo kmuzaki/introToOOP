@@ -8,7 +8,7 @@ public class PersonDemo {
         person1.setGender("Female");
         
         // Create a person using the parameterized constructor
-        Person person2 = new Person("Bob", 30, "Male");
+        Person person2 = new Person("Bob", 30, "Male", "Gaming", "Rendang");
         
         // Display information for person1
         System.out.println("Person 1 Information:");

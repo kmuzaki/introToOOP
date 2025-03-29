@@ -51,6 +51,24 @@ public class Person {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
+    // Getter and Setter for 'hobby'
+    public String getHobby() {
+        return hobby;
+    }
+    
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
+    }
+
+    // Getter and Setter for 'favFood'
+    public String getFavFood() {
+        return favFood;
+    }
+    
+    public void setFavFood(String favFood) {
+        this.favFood = favFood;
+    }
     
     // Method to display person information
     public void displayInfo() {
